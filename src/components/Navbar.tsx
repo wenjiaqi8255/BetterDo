@@ -36,8 +36,8 @@ export const Navbar = () => {
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
             <ThemeChanger />
             <div className="hidden mr-3 lg:flex nav__item">
-              <Link href="/" className="px-6 py-2 text-white bg-lime-500 rounded-md md:ml-5">
-                Get Started
+              <Link href="https://getwaitlist.com/waitlist/21803" className="px-6 py-2 text-white bg-lime-500 rounded-md md:ml-5">
+                Join Waitlist
               </Link>
             </div>
         </div>
