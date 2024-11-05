@@ -1,7 +1,7 @@
 {
-  "name": "nextly-template",
+  "name": "betterdo",
   "version": "2.0.0",
-  "description": "Nextly Landing Page Template",
+  "description": "A Todo App That Will Suggest a Break",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,23 +11,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/web3templates/nextly-template"
+    "url": "https://github.com/wenjiaqi8255/BetterDo"
   },
   "keywords": [
-    "nextjs",
+    "todo",
     "tailwindcss",
-    "free"
+    "productivity"
   ],
   "author": "Surjith S M",
   "license": "ISC",
   "dependencies": {
     "@headlessui/react": "^2.0.3",
     "@heroicons/react": "^2.1.3",
+    "i18next": "^23.16.4",
     "next": "14.2.3",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-hook-form": "^7.51.4"
+    "react-hook-form": "^7.51.4",
+    "react-i18next": "^15.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",

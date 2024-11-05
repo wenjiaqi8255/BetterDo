@@ -12,19 +12,19 @@ export default function Home() {
   return (
     <Container>
       <Hero />
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Nextly Benefits"
         title=" Why should you use this landing page"
       >
         Nextly is a free landing page & marketing website template for startups
         and indie projects. Its built with Next.js & TailwindCSS. And its
         completely open-source.
-      </SectionTitle>
+      </SectionTitle> */}
 
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      {/* <Benefits imgPos="right" data={benefitTwo} /> */}
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Watch a video"
         title="Learn how to fullfil your needs"
       >
@@ -33,9 +33,9 @@ export default function Home() {
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
 
-      <Video videoId="fZ0D0cnR88E" />
+      <Video videoId="fZ0D0cnR88E" /> */}
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Testimonials"
         title="Here's what our customers said"
       >
@@ -43,11 +43,10 @@ export default function Home() {
         Use this section to highlight your popular customers.
       </SectionTitle>
 
-      <Testimonials />
+      <Testimonials /> */}
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        
       </SectionTitle>
 
       <Faq />

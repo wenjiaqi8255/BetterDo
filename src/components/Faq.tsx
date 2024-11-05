@@ -13,12 +13,12 @@ export const Faq = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
+                  <DisclosureButton className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-lime-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
                     <span>{item.question}</span>
                     <ChevronUpIcon
                       className={`${
                         open ? "transform rotate-180" : ""
-                      } w-5 h-5 text-indigo-500`}
+                      } w-5 h-5 text-lime-500`}
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
@@ -36,21 +36,22 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "1. How is this app different from other todo apps? Why should I switch to this one?",
+    answer: ["While traditional todo apps only tell you ","what to do,"," BetterDo tells you ", "what's best to do right now. ",
+      "When you're tired, it automatically reminds you to rest, preventing inefficient forced work"],
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "2. Will using this app take up more of my time? Is tracking energy levels complicated?",
+    answer: "It won't take much extra time: You don't need to record it manually if you have a smartwatch and allow us to access your health data. If you don't have a smartwatch, you can use the app's in-built tracker to record your energy levels. It's simple and easy to use.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "3. I often feel fatigued - how specifically can this app help me?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "BetterDo will: Recommend tasks suitable for your current state, ensuring you don't handle energy-intensive work when you're most tired; and remind you to rest when you're tired, preventing excessive fatigue.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "4. You claim this app increases productivity - do you have specific data to support this? How long until I see results? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
-  },
+      "We are working on a research project to validate our claims.",
+  }
 ];

@@ -11,23 +11,23 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Key Features",
+  desc: " ",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Energy Level Tracking",
+      desc: "Easily monitor and record your energy levels throughout the day to understand your natural productivity patterns.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Smart Rest Reminders",
+      desc: "Get personalized rest suggestions based on your energy levels and work duration to maintain peak performance.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Intelligent Task Matching",
+      desc: "Match tasks to your current energy level for optimal productivity and reduced burnout.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
@@ -58,3 +58,18 @@ const benefitTwo = {
 
 
 export {benefitOne, benefitTwo};
+
+// // 建议在 components/data.ts 中定义
+// export const appOverview = {
+//   title: "Core Features That Make the Difference",
+//   desc: "Experience a new way of task management that puts your energy first.",
+//   image: appOverviewImg, // 需要准备图片
+//   bullets: [
+//     {
+//       title: "Energy Level Tracking",
+//       desc: "Easily monitor and record your energy levels throughout the day to understand your natural productivity patterns.",
+//       icon: <EnergyIcon />
+//     },
+//     // ... 其他功能
+//   ]
+// };
